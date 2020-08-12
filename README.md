@@ -43,4 +43,4 @@ We use the Model View Controller (M.V.C.) architecture to seperate the classes b
 We have implemented JUnit Tests for each User Story.
 
 ## Class Diagram
-![Image](https://github.com/VictorMegir/LatTex-Editor/tree/master/LaTex%20Editor/src/UML.png)
+![Image](https://github.com/VictorMegir/LatTex-Editor/tree/master/LaTex%20Editor/src/UML.jpg)
