@@ -61,7 +61,7 @@ public class VersionStrategyManager
 			his.remove(previous);
 			return true;
 		}
-		catch(java.lang.ArrayIndexOutOfBoundsException e){
+		catch(java.lang.IndexOutOfBoundsException e){
 			return false;
 		}
 	}
