@@ -28,6 +28,9 @@ An application for editing LaTex files.
 
 9. As a user, I should be able to load the Latex document from disk storage.
 
+## Tools 
+We use the Java Swing package to create a Graphic User Interface (GUI).
+
 ## Architecture 
 We use the Model View Controller (M.V.C.) architecture to seperate the classes by their responsibilities.
 * Model classes implement the domain relevant data classes and update the Controller upon changes in the data.
