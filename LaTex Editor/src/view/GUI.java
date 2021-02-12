@@ -9,24 +9,24 @@ import control.*;
 
 public class GUI extends JFrame 
 {                 
-    private JButton CreateButton;
-    private JButton CommitButton;
-    private JButton LoadButton;
-    private JButton SaveButton;
-    private JButton RollbackButton;
-    private JRadioButton DisableVersionTrackingButton;
-    private JComboBox<String> TemplateBox;
-    private JComboBox<String> VersionBox;
-    private JComboBox<String> CommandBox;
-    private JScrollPane ScrollPane;
-    private JTextArea TextArea;
+	private JButton CreateButton;
+	private JButton CommitButton;
+	private JButton LoadButton;
+	private JButton SaveButton;
+	private JButton RollbackButton;
+	private JRadioButton DisableVersionTrackingButton;
+	private JComboBox<String> TemplateBox;
+	private JComboBox<String> VersionBox;
+	private JComboBox<String> CommandBox;
+	private JScrollPane ScrollPane;
+	private JTextArea TextArea;
 	private JFileChooser fileChooser;
-    private static Controller MainController;
+	private static Controller MainController;
      
 	private static final long serialVersionUID = 1L;
 	public GUI() {
-        initComponents();
-    }	
+		initComponents();
+	}	
 
 	public JTextArea getTextArea() {
 		return TextArea;
